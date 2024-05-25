@@ -1,4 +1,12 @@
 {
+  "homepage": "https://github.com/Anshgrover23/mines-game",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  }
+}
+
+{
   "name": "minesweeper-game",
   "version": "1.0.0",
   "description": "",
